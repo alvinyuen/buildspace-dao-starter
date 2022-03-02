@@ -4,7 +4,7 @@ body {
   font-family: Inter, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #7700ee;
+  background-color: #000322;
   color: #fff;
   overflow-x: hidden;
 }
@@ -55,6 +55,7 @@ h1 {
   align-content: center;
   display: flex;
   text-align: center;
+  color: #578ff3;
 }
 
 .member-page > div {
@@ -116,9 +117,12 @@ h1 {
 
 button {
   cursor: pointer;
-  background-color: #000;
+  background-color: transparent;
   color: #fff;
-  border: none;
+  border: 2px solid #17ef97;
+  max-width: 500px;
+  margin: 0 auto;
+  color: #17ef97;
   font-weight: bold;
   font-family: inherit;
   padding: 1.2rem 2rem;
