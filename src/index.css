@@ -76,6 +76,10 @@ h1 {
   color: #25d9ac;
 }
 
+.member-page > div > div > h2 {
+  color: #d224f7;
+}
+
 @media screen and (max-width: 768px) {
   .member-page > div {
     flex-direction: column;
